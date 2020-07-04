@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "75934570321",
+    "firebase_url": "https://petme-b20dc.firebaseio.com",
+    "project_id": "petme-b20dc",
+    "storage_bucket": "petme-b20dc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:75934570321:android:c1f29db1aed08105e42570",
+        "android_client_info": {
+          "package_name": "com.example.petme"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "75934570321-15n83lc76qfb4eut7a6u1edk4b82u2po.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.petme",
+            "certificate_hash": "daf79fe250919df48d214c5c1dbc93ffe2973552"
+          }
+        },
+        {
+          "client_id": "75934570321-ell8ie8cvdpn8kp0tfjbuu20ellk1kpv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCs-9S-ncYI9r-fyR3FzBYjGNemvjmq5VE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "75934570321-ell8ie8cvdpn8kp0tfjbuu20ellk1kpv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
