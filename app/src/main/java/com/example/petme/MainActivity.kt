@@ -20,5 +20,9 @@ class MainActivity : AppCompatActivity() {
             startActivity(intent)
         }
 
+        login_google.setOnClickListener{
+            val intent = Intent(this,HomeActivity::class.java)
+            startActivity(intent)
+        }
     }
 }
