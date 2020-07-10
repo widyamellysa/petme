@@ -59,15 +59,15 @@ class MainActivity : AppCompatActivity() {
         }
     }
 
-//    override fun onStart() {
-//        super.onStart()
-//        val user = FirebaseAuth.getInstance().currentUser
-//        if (user != null) {
-//            val intent = Intent(this,HomeActivity::class.java)
-//            startActivity(intent)
-//            finish()
-//        }
-//    }
+    override fun onStart() {
+        super.onStart()
+        val user = FirebaseAuth.getInstance().currentUser
+        if (user != null) {
+            val intent = Intent(this,HomeActivity::class.java)
+            startActivity(intent)
+            finish()
+        }
+    }
 
     private fun configureGoogleSignIn(){
         mGoogleSignInOptions = GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_SIGN_IN)
